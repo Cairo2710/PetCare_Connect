@@ -1,5 +1,4 @@
-# PetCare_Connect
-Projeto do PIM - Gestão de TI - 2º semestre de 2025
+# PetCare Connect
 
 Sistema de gestão para clínica veterinária/petshop desenvolvido em Java com Swing.
 
@@ -37,41 +36,20 @@ Sistema de gestão para clínica veterinária/petshop desenvolvido em Java com S
 ## Como Executar
 
 ### Windows
-1. Compile o projeto:
-```bash
-Compilador.bat
-```
 
-2. Execute a aplicação:
-```bash
-Executavel_App.bat
-```
-
-### Linux/Mac
-1. Dê permissão de execução aos scripts:
-```bash
-chmod +x compilar.sh executar.sh
+1. Faça o download do JDK
+```bash 
+https://download.oracle.com/java/25/latest/jdk-25_windows-x64_bin.exe
 ```
 
 2. Compile o projeto:
 ```bash
-./compilar.sh
+Compilador.bat
 ```
 
 3. Execute a aplicação:
 ```bash
-./executar.sh
-```
-
-### Manualmente
-1. Compile o projeto:
-```bash
-javac -d bin -sourcepath src src/main/java/com/petcare/view/LoginFrame.java
-```
-
-2. Execute a aplicação:
-```bash
-java -cp bin com.petcare.view.LoginFrame
+Executavel_App.bat
 ```
 
 ## Credenciais de Acesso
